@@ -350,21 +350,41 @@ input {
   padding: 10px;
 }
 
+.name-inputs {
+  width: 41vw;
+  display: flex;
+}
+
 .name-inputs > input {
-  width: 200px;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid rgba(62, 62, 62, 0.2);
+  outline: none;
+}
+
+.name-inputs > input:nth-child(1) {
+  margin-right: 5px;
 }
 
 .email {
   margin-top: 10px;
-  width: 403px;
+  width: 41vw;
+  border: none;
+  border-bottom: 1px solid rgba(62, 62, 62, 0.2);
+  outline: none;
 }
 
 textarea {
   margin-top: 10px;
-  width: 403px;
+  width: 41vw;
   padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(62, 62, 62, 0.2);
+  outline: none;
 }
 
-.form > button {
+.submit-button {
   margin-top: 10px;
+  outline: nonn;
+  border: none;
 }
